@@ -3,8 +3,15 @@
 :root {
   --primary-color: #5598fd;
 }
-.root{
+#root{
     overflow: scroll;
+}
+#root::-webkit-scrollbar{
+  display:none;
+}
+#root{
+  overflow-style:none;
+  scrollbar-width: none;
 }
 * {
   margin: 0;
