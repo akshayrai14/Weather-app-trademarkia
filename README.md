@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+### Complete Hosted link for the website ( on Vercel )
+
+https://weather-app-trademarkia-one.vercel.app/ 
+
+### API used :-
+
+https://www.weatherapi.com/
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -26,38 +34,23 @@ After installing all the dependencies run this command for running the project.T
 
 Now write start for running the project in your local host.
 
+### Functionalities of the App
+<h4>The Home page of the website has some famous places whose weather conditions can be searched for and besides that it has a current location feature to use our current location to fetch weather details and also has a search bar with an autocomplete feature to search for all the places in the world </h4>
+
+![image](https://user-images.githubusercontent.com/109916723/219522724-8ae4e1ba-3f79-4a48-a908-bcd41005abd9.png)
+
+<h4>Search to give the weather conditions of the searched location , Today will give the details of hourly weather conditions and Week will give the weather forecast for the next three days , besides this the button to switch from celsius to fahrenheit is present </h4>
+
+![image](https://user-images.githubusercontent.com/109916723/219520878-82accc1f-6bd3-403b-8972-9eeb923084ff.png)
+
+<h4>When a location is searched , not only do we get the today and week weather details but also a highlights section is present at the bottom of the page which tells us additional details like UV , Pressure , Cloud , Humidity. The location being searched is present in bold in the side bar where additional details like sunrise , sunset etc are also mentioned and the bottom of the side bar is a home button to return back to the home</h4>
+
+![image](https://user-images.githubusercontent.com/109916723/219521462-2b35441a-6849-452f-a78b-227718d1cb6f.png)
+
+<h4>The website also has a feature of geolocation which allows to take our current location on our permission and fetches all the weather conditions based on that</h4>
+
+![image](https://user-images.githubusercontent.com/109916723/219523259-2e73597e-d515-4e37-8f09-03bdfcadcd6d.png)
+
+<h4>Besides these the website also has Local storage implemented which will keep our current searches in give them to us when we return to Home page</h4>
 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
